@@ -12,7 +12,6 @@
 ## Data Analysis:
 Analyze the retrieved data to provide insights about the playlists, such as:
 * The most common artists.
-* The average tempo.
 * Song distribution by year or decade.
 * The genre distribution.
 
