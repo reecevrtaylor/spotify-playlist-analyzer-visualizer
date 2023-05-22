@@ -1,7 +1,8 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css'
 import Root from './pages/Root';
-import Home from './pages/Home';
+import Home from './pages/HomePage';
+import SpotifyLogin from './pages/SpotifyLogin';
 
 
 const router = createBrowserRouter([
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      {
+        path: "/callback",
+        element: <SpotifyLogin />,
+      }
     ],
   },
 ]);

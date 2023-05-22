@@ -19,7 +19,6 @@ Analyze the retrieved data to provide insights about the playlists, such as:
 Create interactive visualizations for the analyzed data, such as:
 
 * A pie chart showing the genre distribution.
-* A scatter plot showing the correlation between different audio features.
 * A bar graph showing the most common artists.
 * A timeline showing song distribution by year or decade.
 

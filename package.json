@@ -10,15 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.6.1",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.1",
+    "@mui/styles": "^5.13.1",
     "axios": "^1.4.0",
     "csstype": "^3.1.2",
+    "framer-motion": "^10.12.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.2"
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.11.2",
+    "spotify-web-api-js": "^1.5.2",
+    "spotify-web-api-ts": "^1.4.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
