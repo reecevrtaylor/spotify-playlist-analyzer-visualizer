@@ -1,8 +1,9 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css'
 import Root from './pages/Root';
-import Home from './pages/HomePage';
 import SpotifyLogin from './pages/SpotifyLogin';
+import HomePage from './pages/HomePage';
+import PlaylistsPage from './pages/Playlists';
 
 
 const router = createBrowserRouter([
@@ -12,11 +13,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <SpotifyLogin />,
       },
       {
-        path: "/callback",
-        element: <SpotifyLogin />,
+        path: "/home",
+        element: <HomePage />,
+      },
+      {
+        path: "/playlists",
+        element: <PlaylistsPage />,
       }
     ],
   },

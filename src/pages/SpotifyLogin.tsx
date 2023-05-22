@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '@mui/material';
 
 const CLIENT_ID = import.meta.env.VITE_REACT_APP_SPOTIFY_CLIENT_ID
-const REDIRECT_URI = 'http://localhost:5173/'
+const REDIRECT_URI = 'http://localhost:5173/home'
 
 
 const scopes = ['user-read-private', 'user-read-email', 'playlist-read-private', 'playlist-read-collaborative'];

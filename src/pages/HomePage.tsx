@@ -19,14 +19,17 @@ const HomePage: React.FC = () => {
     if (!hashParams['access_token']) {
       return;
     }
+    localStorage.setItem('spotify_access_token', hashParams['access_token']);
     setLoggedIn(true);
   }, [location]);
 
   return (
     <div>
       {loggedIn ? 'Logged In!' : 'Not Logged In.'}
-      <Link to="/callback">
-        <Button>Login with Spotify</Button>
+      <Link to="/playlists">
+        <Button variant="contained" color="primary">
+          Go to Playlists
+        </Button>
       </Link>
     </div>
   );
